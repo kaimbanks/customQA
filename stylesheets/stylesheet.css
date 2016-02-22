@@ -10,7 +10,7 @@ li {
     float: left;
 }
 
-.horizontalbar {
+li a {
     display: block;
     color: white;
     text-align: center;
