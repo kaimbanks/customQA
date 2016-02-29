@@ -1,16 +1,33 @@
-ul {
+header {
+    text-align: center;
+    color: black    ;
+}
+
+body {
+    border: 1px solid black;
+    margin: 0;
+}
+
+.container {
+    margin-left: 20%;
+    padding: 1px 1px;
+    height: 1000px;
+}
+
+#top_bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #990000;
 }
 
 li {
     float: left;
+    text-align: center;
 }
 
-li a {
+.tb_item {
     display: block;
     color: white;
     text-align: center;
@@ -18,7 +35,33 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+.tb_item:hover {
     background-color: #111;
+}
+
+#side_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #990000;
+    overflow: auto;
+    position: fixed;
+    height: 100%;
+    max-width: 200px;
+
+}
+
+.sb_item {
+    display: block;
+    color: white;
+    padding: 8px 10px 10px 12px;
+    text-decoration: none;
+
+}
+
+.sb_item:hover {
+    background-color: #111;
+    color: white;
+
 }
