@@ -24,10 +24,6 @@ body {
     background-color: #990000;
 }
 
-li {
-    
-}
-
 .tb_item {
     display: block;
     color: white;
@@ -45,7 +41,7 @@ li {
 #side_bar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     width: 20%;
     background-color: #990000;
     overflow: auto;
@@ -55,13 +51,14 @@ li {
 }
 
 .sb_item {
+    width: 100%;
     display: block;
     color: white;
     padding: 8px 10px 10px 12px;
     text-decoration: none;
 
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
 .sb_item:hover {
@@ -94,6 +91,27 @@ h2 {
 .hp_text {
     padding: 0px 5px;
 }
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.active {
+    width: 100%;
+    display: block;
+    color: white;
+    padding: 8px 10px 10px 12px;
+    text-decoration: none;
+
+    float: left;
+    text-align: left;
+    background-color: black;
+}
+
+
 
 
 
