@@ -72,9 +72,6 @@ li {
     max-width: 100%;
 }
 
-#hp_blurb {
-    padding: 0px 5px;
-}
 
 a {
     padding: 0px 5px;
@@ -92,6 +89,10 @@ h2 {
     margin: 5px 5px;
     border: 1px solid black;
     height: auto;
+}
+
+.hp_text {
+    padding: 0px 5px;
 }
 
 
